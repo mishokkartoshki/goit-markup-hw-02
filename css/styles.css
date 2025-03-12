@@ -18,7 +18,46 @@ body {
     --dairy: #fcfcfc;
 }
 
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+    text-align: center;
+    color: var(--white);
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: var(--navy-blue);
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.body--med-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: var(--navy-blue);
+}
+
+
 /* ---------HEADER--------- */
+.header {
+    color: var(--white);
+    padding: 24px 156px;
+}
+
 .main-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -33,12 +72,22 @@ span.logo-1 {
     color: var(--iris);
 }
 
-.text-med {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color: var(--navy-blue);
+.nav-ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 76px;
+    margin-right: 332px;
+    padding: 0;
+}
+
+.bmt-2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.cont-ul {
+    padding: 0;
+    margin: 0;
 }
 
 .contact {
@@ -49,6 +98,9 @@ span.logo-1 {
     color: var(--slate);
 }
 
+.contact-1 {
+    margin-right: 40px;
+}
 
 /* ---------HERO--------- */
 .hero {
@@ -57,17 +109,17 @@ span.logo-1 {
 }
 
 .hero-text {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
     text-align: center;
-    color: var(--white);
     margin: 0;
     padding-bottom: 48px;
 }
 
 .hero-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
     border-radius: 4px;
     padding: 16px 32px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -77,11 +129,12 @@ span.logo-1 {
     line-height: 24px;
     letter-spacing: 4%;
     color: white;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
     border: 0;
     margin-left: 164px;
+}
+
+
+/* ---------FEATURES--------- */
+.features {
+    padding: 120px 156px;
 }
