@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
+    max-width: 1440px;
 }
 
 :root {
@@ -28,28 +29,38 @@ h1 {
 }
 
 h2 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
     letter-spacing: 2%;
+    text-align: center;
     color: var(--navy-blue);
 }
 
 h3 {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+    line-height: 24px;
+    letter-spacing: 2%;
     color: var(--navy-blue);
 }
 
-.body--med-text {
+.body-med-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
     color: var(--navy-blue);
 }
+
+.body-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 
 
 /* ---------HEADER--------- */
@@ -102,6 +113,8 @@ span.logo-1 {
     margin-right: 40px;
 }
 
+
+
 /* ---------HERO--------- */
 .hero {
     background: var(--navy-blue);
@@ -134,7 +147,44 @@ span.logo-1 {
 }
 
 
+
 /* ---------FEATURES--------- */
 .features {
     padding: 120px 156px;
+    color: var(--white);
+}
+
+.features-ul {
+    margin: 0;
+    padding: 0;
+}
+
+.features-li {
+    margin-right: 24px;
+}
+
+
+
+/* ---------OUR TEAM--------- */
+.our-team {
+    background-color: var(--cloud);
+    padding: 120px 156px;
+}
+
+.our-team-h {
+    margin: 0;
+}
+
+.our-team-ul {
+    margin-top: 72px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.otl {
+    margin-right: 24px;
+}
+
+.our-team-text {
+    text-align: center;
 }
