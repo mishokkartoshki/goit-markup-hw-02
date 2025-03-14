@@ -46,21 +46,6 @@ h3 {
     color: var(--navy-blue);
 }
 
-.body-med-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-}
-
-.body-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
 
 
 /* ---------HEADER--------- */
@@ -74,28 +59,31 @@ h3 {
     color: var(--iris);
 }
 
-.logo-part-studio {
+.logo-part {
     color: var(--navy-blue);
 }
 
-.navigation-menu {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 76px;
-    margin-right: 332px;
+.site-navigation {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 
-.menu-portfolio {
-    margin-left: 40px;
-    margin-right: 40px;
+.site-navigation:hover,
+.site-navigation:focus {
+    color: var(--ocean);
 }
 
-.contacts {
-    margin: 0;
+.addresses {
+    font-style: normal;
 }
 
-.contact-email {
-    margin-right: 40px;
+.contact {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
@@ -115,8 +103,8 @@ h3 {
     background: var(--iris);
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 4%;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: white;
     border: 0;
     margin-left: 164px;
@@ -181,7 +169,7 @@ h3 {
     background-color: var(--navy-blue);
 }
 
-.footer-logo-studio {
+.footer-logo-part {
     color: var(--cloud);
 }
 
