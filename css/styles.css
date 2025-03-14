@@ -1,6 +1,5 @@
 body {
     font-family: "Roboto", sans-serif;
-    margin: 0;
     background-color: var(--white);
     color: var(--slate);
 }
@@ -32,9 +31,10 @@ h1 {
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: var(--navy-blue);
 }
 
@@ -117,18 +117,21 @@ h3 {
 
 .hero-btn:hover
 .hero-btn:focus {
-    color: var(--ocean);
+    background-color: var(--ocean);
 }
 
 
 
 /* ---------FEATURES--------- */
-.features-list {
-    margin: 0;
+.feature {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.features-li {
-    margin-right: 24px;
+.feature-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
@@ -138,38 +141,24 @@ h3 {
     background-color: var(--cloud);
 }
 
-.our-team-header {
-    margin: 0;
-}
-
-.team-list {
-    margin-top: 72px;
-    margin-bottom: 0;
-}
-
 .member {
-    margin-right: 24px;
+    background-color: var(--white);
 }
 
-.our-team-text {
+.member-name {
     text-align: center;
+}
+
+.member-role {
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
 
 /* ---------PORTFOLIO--------- */
-.portfolio-header {
-    margin-top: 0;
-    margin-bottom: 72px;
-}
 
-.offers {
-    margin: 0;
-}
-
-.row {
-    margin: 0;
-}
 
 
 
@@ -183,7 +172,7 @@ h3 {
 }
 
 .invocation {
-    margin: 0;
-    margin-top: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--cloud);
 }
