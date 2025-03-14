@@ -1,9 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
-    max-width: 1440px;
     background-color: var(--white);
-    color: var(--navy-blue);
+    color: var(--slate);
 }
 
 :root {
@@ -36,6 +35,7 @@ h2 {
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
+    color: var(--navy-blue);
 }
 
 h3 {
@@ -43,6 +43,7 @@ h3 {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 
 .body-med-text {
@@ -50,6 +51,7 @@ h3 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 
 .body-text {
@@ -57,28 +59,23 @@ h3 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
 }
 
 
 
 /* ---------HEADER--------- */
-.header {
-    padding: 24px 156px;
-}
-
 .webstudio-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy-blue);
+    color: var(--iris);
 }
 
-.logo-part-web {
-    color: var(--iris);
+.logo-part-studio {
+    color: var(--navy-blue);
 }
 
 .navigation-menu {
@@ -86,7 +83,6 @@ h3 {
     margin-bottom: 0;
     margin-left: 76px;
     margin-right: 332px;
-    padding: 0;
 }
 
 .menu-portfolio {
@@ -95,16 +91,7 @@ h3 {
 }
 
 .contacts {
-    padding: 0;
     margin: 0;
-}
-
-.contact {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color: var(--slate);
 }
 
 .contact-email {
@@ -116,24 +103,15 @@ h3 {
 /* ---------HERO--------- */
 .hero {
     background: var(--navy-blue);
-    padding: 188px 472px;
 }
 
 .hero-text {
     text-align: center;
     margin: 0;
-    padding-bottom: 48px;
 }
 
 .hero-btn {
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 4px;
-    padding: 16px 32px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
     font-weight: 500;
     font-size: 16px;
@@ -148,13 +126,8 @@ h3 {
 
 
 /* ---------FEATURES--------- */
-.features {
-    padding: 120px 156px;
-}
-
 .features-list {
     margin: 0;
-    padding: 0;
 }
 
 .features-li {
@@ -166,7 +139,6 @@ h3 {
 /* ---------OUR TEAM--------- */
 .our-team {
     background-color: var(--cloud);
-    padding: 120px 156px;
 }
 
 .our-team-header {
@@ -175,7 +147,6 @@ h3 {
 
 .team-list {
     margin-top: 72px;
-    padding: 0;
     margin-bottom: 0;
 }
 
@@ -190,10 +161,6 @@ h3 {
 
 
 /* ---------PORTFOLIO--------- */
-.portfolio {
-    padding: 120px 156px;
-}
-
 .portfolio-header {
     margin-top: 0;
     margin-bottom: 72px;
@@ -201,12 +168,10 @@ h3 {
 
 .offers {
     margin: 0;
-    padding: 0;
 }
 
 .row {
     margin: 0;
-    padding: 0;
 }
 
 
@@ -214,10 +179,6 @@ h3 {
 /* ---------FOOTER--------- */
 .footer {
     background-color: var(--navy-blue);
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 156px;
-    padding-right: 1020px;
 }
 
 .footer-logo-studio {
