@@ -105,7 +105,7 @@ h3 {
 
 .hero-btn {
     justify-content: flex-start;
-    background: var(--iris);
+    background-color: var(--iris);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -113,6 +113,11 @@ h3 {
     color: white;
     border: 0;
     cursor: pointer;
+}
+
+.hero-btn:hover
+.hero-btn:focus {
+    color: var(--ocean);
 }
 
 
