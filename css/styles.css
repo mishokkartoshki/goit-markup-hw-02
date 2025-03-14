@@ -23,7 +23,7 @@ body {
 h1 {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
@@ -84,6 +84,12 @@ h3 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--ocean);
 }
 
 
@@ -95,7 +101,6 @@ h3 {
 
 .hero-text {
     text-align: center;
-    margin: 0;
 }
 
 .hero-btn {
@@ -107,7 +112,6 @@ h3 {
     letter-spacing: 0.04em;
     color: white;
     border: 0;
-    margin-left: 164px;
     cursor: pointer;
 }
 
